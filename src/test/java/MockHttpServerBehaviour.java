@@ -84,13 +84,13 @@ public class MockHttpServerBehaviour {
     public void testName() throws Exception {
 //        responseProvider.expect(Method.POST, "/task-generator",
 //                "application/json; charset=UTF-8", "{\"MAP\": 0, \"COMPLIANCE_PAPER_WORK\": 0, \"PHONE\": 0}").respondWith(200, "application/json", "{\"name\": \"map\"}");
-        AgentRatingBasedTaskGenerator taskGenerator = new AgentRatingBasedTaskGenerator(HttpAsyncClients.createDefault(), new AgentRatingTaskToResponseConverter());
-
-        Observable<GeneratedSmallUnitAuditTask> observable = taskGenerator.observable();
-        observable.subscribe(new DummyObserver());
-
-
-        Thread.sleep(10000);
+//        AgentRatingBasedTaskGenerator taskGenerator = new AgentRatingBasedTaskGenerator(HttpAsyncClients.createDefault(), new AgentRatingTaskToResponseConverter());
+//
+//        Observable<GeneratedSmallUnitAuditTask> observable = taskGenerator.observable();
+//        observable.subscribe(new DummyObserver());
+//
+//
+//        Thread.sleep(10000);
     }
 
 

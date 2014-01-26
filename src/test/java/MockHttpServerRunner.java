@@ -51,10 +51,10 @@ public class MockHttpServerRunner implements Runnable {
             int i = 0;
 
 
-            while (true) {
-                Thread.sleep(3000);
-                System.out.println(i++);
-            }
+//            while (true) {
+//                Thread.sleep(3000);
+//                System.out.println(i++);
+//            }
 
         } catch (Exception e) {
             e.printStackTrace();

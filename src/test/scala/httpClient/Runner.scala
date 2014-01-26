@@ -34,9 +34,9 @@ class Runner extends Specification {
 
       observable.subscribe(new DummyObserver)
 
-      Thread.sleep(10000)
-
-      println(123)
+//      Thread.sleep(10000)
+//
+//      println(123)
     }
     }
 

@@ -83,16 +83,16 @@ public class TestMain {
 //            System.out.println(i++);
 
 
-        AgentRatingBasedTaskGenerator generator3 = new AgentRatingBasedTaskGenerator(HttpAsyncClients.createDefault(), new AgentRatingTaskToResponseConverter());
+//        AgentRatingBasedTaskGenerator generator3 = new AgentRatingBasedTaskGenerator(HttpAsyncClients.createDefault(), new AgentRatingTaskToResponseConverter());
+//
+//        Observable<GeneratedSmallUnitAuditTask> observable3 = generator3.observable();
+//
+//        observable3.subscribe(new DummyObserver());
 
-        Observable<GeneratedSmallUnitAuditTask> observable3 = generator3.observable();
-
-        observable3.subscribe(new DummyObserver());
-
-
-       while(true) {
-
-       }
+//
+//       while(true) {
+//
+//       }
 
 
     }
