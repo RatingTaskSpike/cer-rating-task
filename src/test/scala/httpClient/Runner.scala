@@ -32,7 +32,7 @@ class Runner extends Specification {
 
       val observable: Observable[GeneratedSmallUnitAuditTask] = generator.observable()
 
-      observable.subscribe(new DummyObserver)
+//      observable.subscribe(new DummyObserver)
 
 //      Thread.sleep(10000)
 //
