@@ -16,7 +16,7 @@ class TaskGeneratorIntegrationSpec extends FlatSpecHelper {
   "POST /task-generator with no body" should "respond with 400 (Bad Request)" in {
     post(path = "/task-generator", headers = Map("content-type" -> "application/json"))
     response.code   should equal (400)
-    response.body   should equal ("Can not parse the request body")
+    response.body   should equal ("Can not parse the request body123")
   }
 
 }
