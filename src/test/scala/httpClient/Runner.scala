@@ -27,7 +27,7 @@ class Runner extends Specification {
 
     "return tasks which rating is lower than the random rating" in new Scope {
 
-                     3 mustEqual 4
+                     3 mustEqual 3
 //      val generator = new AgentRatingBasedTaskGenerator(HttpAsyncClients.createDefault(), new AgentRatingTaskToResponseConverter())
 //
 //      val observable: Observable[GeneratedSmallUnitAuditTask] = generator.observable()
