@@ -9,7 +9,7 @@ class TaskGeneratorController(taskGenerator: TasksGenerator) extends Controller 
 
   post("/task-generator") { request =>
 
-    println( "processing : " + JSON.parseRaw(request.contentString))
+    println( "processing Blablabla : " + JSON.parseRaw(request.contentString))
 
     JSON.parseRaw(request.contentString) match {
       case Some(JSONObject(rawMap)) => {
